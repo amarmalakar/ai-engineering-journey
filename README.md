@@ -4,7 +4,7 @@ Project-based journey from Python fundamentals to production AI systems.
 
 ## Progress
 
-- [ ] Day 01 — Python
+- [x] Day 01 — Python
 - [ ] Day 02 — NumPy
 - [ ] Day 03 — Pandas
 - [ ] Day 04 — Math
