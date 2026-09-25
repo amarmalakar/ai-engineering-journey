@@ -12,35 +12,57 @@ Implement a forward pass with NumPy arrays.
 
 ## Project
 
-Forward pass
+Mini neural-network math engine: inputs, weights, matrix multiplication, bias, activation, output.
 
 ## Deliverable
 
-A NumPy forward pass
+A two-layer NumPy forward pass in `src/forward_pass.ipynb`.
 
 ## Setup
 
-Add install steps when this day starts.
+From `02-numpy`:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install numpy jupyterlab
+```
+
+Use the kernel that points at `02-numpy/.venv`.
 
 ## Run
 
-Add the command to run the project when this day starts.
+Open `src/forward_pass.ipynb` and run all cells.
+
+Practice notebooks:
+
+```text
+notebooks/01_arrays.ipynb
+notebooks/02_slicing_sorting.ipynb
+notebooks/03_axis_vectors.ipynb
+notebooks/04_save_load.ipynb
+```
 
 ## Example
 
-Add example output when this day starts.
+```text
+Output:::  [[6.5]
+ [2.5]]
+```
+
+Two samples go in. Each comes out as one number. The first scores 6.5 and the second scores 2.5.
 
 ## What I Learned
 
-_Fill this in at the end of the day._
+`@` is matrix multiplication. The inner dimensions must match, and a bias vector is added to every row. ReLU clears negative hidden values. The same inputs and weights always produce the same output.
 
 ## Challenges
 
-_Fill this in at the end of the day._
+The notebook kernel has to be the `02-numpy` virtual environment. Another Python on the machine does not have NumPy installed.
 
 ## Next Step
 
-_Fill this in at the end of the day._
+Day 03 — analyze a dataset with Pandas.
 
 ## Commit
 
